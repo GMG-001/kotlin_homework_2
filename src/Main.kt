@@ -3,7 +3,7 @@ fun main() {
     val point2 = Point(11,51)
 
     val symmetry = Point(15,16).reversePoint()
-    val checkEquals = Point(11,51).equals(point2)
+    val checkEquals = point1 == point2
     val testDistance = Point(11,51).distanceBetweenTwoPoints(point1)
 
     println("მოცემული წერტილის კოორდინატებია $point1")
